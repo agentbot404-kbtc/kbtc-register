@@ -280,6 +280,9 @@
       background: var(--border);
       border: 1px solid var(--border);
     }
+    .community-grid.two-col {
+      grid-template-columns: repeat(2, 1fr);
+    }
     .community-card {
       background: var(--bg2);
       padding: 56px 44px;
@@ -358,6 +361,7 @@
       .hero-content { padding: 140px 20px 80px; }
       .partner-grid { grid-template-columns: 1fr; }
       .community-grid { grid-template-columns: 1fr; }
+      .community-grid.two-col { grid-template-columns: 1fr; }
       .partner-card { padding: 36px 28px; }
       .community-card { padding: 44px 32px; }
       .footer-inner { padding: 0 20px; flex-direction: column; align-items: flex-start; }
@@ -379,7 +383,9 @@
         <li><a href="#hero">Home</a></li>
         <li><a href="#forex">Forex</a></li>
         <li><a href="#crypto">Crypto</a></li>
+        <li><a href="#copytrade">Copy Trade</a></li>
         <li><a href="#community">Community</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -409,7 +415,6 @@
           <div class="partner-icon"><span>MF</span></div>
           <p class="partner-name">Mega Fusion</p>
           <p class="partner-category">Forex Broker</p>
-          <p class="partner-desc">Free Rebate 7$/Lot</p>
           <a href="https://t.me/KBTCRegister/498/500" target="_blank" rel="noopener" class="partner-link">
             Register Now
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
@@ -419,7 +424,6 @@
           <div class="partner-icon"><span>IZ</span></div>
           <p class="partner-name">Investizo</p>
           <p class="partner-category">Forex Broker</p>
-          <p class="partner-desc">Beginner Can Deposit 10$</p>
           <a href="https://t.me/KBTCRegister/61/137" target="_blank" rel="noopener" class="partner-link">
             Register Now
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
@@ -429,7 +433,6 @@
           <div class="partner-icon"><span>LF</span></div>
           <p class="partner-name">LiteFinance</p>
           <p class="partner-category">Forex Broker</p>
-          <p class="partner-desc">Trade Large Amount and Fast Deposit, Withdraw</p>
           <a href="https://t.me/c/3544620199/141/143" target="_blank" rel="noopener" class="partner-link">
             Register Now
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
@@ -488,6 +491,28 @@
     </div>
   </section>
 
+  <!-- ── Copy Trade ── -->
+  <section id="copytrade">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Copy Trade</p>
+        <h2 class="section-title">Mirror Pro Traders</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="partner-grid">
+        <div class="partner-card">
+          <div class="partner-icon"><span>CT</span></div>
+          <p class="partner-name">Copy Trade</p>
+          <p class="partner-category">Investizo Copy Trading</p>
+          <a href="https://t.me/KBTCRegister/61/700" target="_blank" rel="noopener" class="partner-link">
+            Start Copying
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 3l5 5-5 5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ── Community ── -->
   <section id="community">
     <div class="section-inner">
@@ -521,6 +546,37 @@
           <p class="comm-desc">Real-time forex news alerts. Never miss a market-moving event again.</p>
           <a href="https://t.me/KBTCForexNews" target="_blank" rel="noopener" class="comm-link">
             Get News
+            <svg class="comm-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact Admin ── -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">Questions? Join Us</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="community-grid two-col">
+        <div class="community-card">
+          <p class="comm-label">Admin</p>
+          <h3 class="comm-title">Samnang KBTC</h3>
+          <p class="comm-desc">Have questions or want to join our fans club? Contact admin directly.</p>
+          <a href="https://t.me/SamnangKBTC" target="_blank" rel="noopener" class="comm-link">
+            Message
+            <svg class="comm-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
+          </a>
+        </div>
+        <div class="community-card">
+          <p class="comm-label">Admin</p>
+          <h3 class="comm-title">Samboleap KBTC</h3>
+          <p class="comm-desc">Alternative contact. Reach out for partnership inquiries and support.</p>
+          <a href="https://t.me/SamboleapKBTC" target="_blank" rel="noopener" class="comm-link">
+            Message
             <svg class="comm-arrow" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 8h12M9 3l5 5-5 5"/></svg>
           </a>
         </div>
